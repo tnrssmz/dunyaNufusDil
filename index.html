@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kapsayici {
+            display: grid;
+            grid-template-columns: 80px 1fr 100px;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .grafik {
+            border: 1px solid black;
+            height: 30px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .oran {
+            height: inherit;
+            background-color: hotpink;
+        }
+
+        .oran2 {
+            height: inherit; 
+            background: linear-gradient(90deg, red 0%, orange 30%, yellow 60%, blue 100%);    
+        }
+    </style>
+</head>
+
+    <body>
+
+        <button id="nfs">Nüfusa Göre Sırala</button>
+        <button id="kds">Kullanılan Dilleri Sırala</button>
+
+        <div class="wrapper"></div>
+        <div class="wrapper2"></div>
+
+
+        <script src="./ulkeler2.js"></script>
+        <script src="./script.js"></script>
+
+    </body>
+
+</html>
